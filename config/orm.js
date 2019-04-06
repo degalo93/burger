@@ -47,6 +47,7 @@ var orm = {
                 throw err;
             }
             cb(result);
+
         });
     },
     insertOne: function(table, cols, vals, cb) {
